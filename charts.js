@@ -7,7 +7,10 @@ let jsChart = new Chart(myChart, {
     datasets: [
       {
         label: "Colors",
-        data: [20, 15, 15, 5, 45]
+        data: [20, 15, 15, 5, 45],
+        backgroundColor: ["red", "blue", "green", "yellow", "orange"],
+        borderWidth: 1,
+        borderColor: "#000"
       }
     ]
   },
